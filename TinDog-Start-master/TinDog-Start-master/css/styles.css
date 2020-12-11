@@ -1,0 +1,142 @@
+#title {
+    background-color: #ff4c68;
+
+}
+
+h1 {
+    padding: 95px;
+    position: relative;
+    top: -45px;
+    left: 90px;
+    color: white;
+    line-height: normal;
+    
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.button {
+    position: relative;
+    top: -105px;
+    left: 180px;
+}
+
+.navbar-brand {
+
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding:0 25px;
+}
+.nav-link{
+    font-size: 1rem;
+    
+}
+/* button */
+.dowmload-button{
+    margin: 10px;
+}
+/* image */
+.img{
+    width: 280px;
+    transform: rotate(25deg);
+position: absolute;
+
+    
+}
+
+
+/* features */
+#features{
+    padding: 85px 125px;
+    text-align: center;
+  background-color: #fff;
+  width: 100vw;
+  position: relative;
+top: -50px;
+  z-index: 1;
+}
+.love{
+    color: #ff8888;
+    margin-bottom: 8px;
+}
+ /* testimonials */
+ #testimonials{
+     color: #fff;
+     padding:5% 28%;
+     background-color: #ff4c68 ;
+     text-align: center;
+
+ }
+
+.t-i{
+border-radius: 100%;
+margin:10px 10px 0 10px;
+width: 15%;
+}
+
+#press{
+    padding: 2% 5%;
+    background-color: #ff4c68 ;
+    text-align: center;
+}
+.press-png{
+    width: 15%;
+    margin: 0 45px;
+}
+
+/* pricing */
+#pricing{
+padding: 100px;
+    text-align: center;
+}
+.p-c{
+    padding: 15px;
+}
+@media  (max-width:1110px){
+    #title{
+        text-align: center;
+    }
+    h1{
+
+    }
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+    .button{
+        position: relative;
+        top: -65px;
+        left: 8px;
+    }
+    h1{
+        position: relative;
+        top: -45px;
+        left: 12px;
+    }
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 80px;
+}
+.cta-heading{
+font-weight: bold;
+margin-bottom: 35px;
+
+}
+
+#footer{
+    text-align: center;
+    margin: 55px;
+}
+.social{
+padding: 10px 15px;
+}
+.social:hover{
+    color: #ff4c68;
+}
